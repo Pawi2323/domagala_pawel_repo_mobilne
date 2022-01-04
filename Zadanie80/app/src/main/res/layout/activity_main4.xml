@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amogus4"
+    android:backgroundTint="#80020A55"
+    android:backgroundTintMode="src_over">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pd_guideline_file4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/pd_logo_file4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/pd_Odzyskaj_file4"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_logo_file4" />
+
+    <EditText
+        android:id="@+id/pd_Agent_file4"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFFFF"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Company_file4" />
+
+    <EditText
+        android:id="@+id/pd_Password_file4"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFFFF"
+        android:text="Company"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Agent_file4" />
+
+    <EditText
+        android:id="@+id/pd_Company_file4"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFFFF"
+        android:text="Agent or Username"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Odzyskaj_file4" />
+
+    <Button
+        android:id="@+id/pd_button_Login_file4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#295B6A"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:id="@+id/pd_OR_file1"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:text="━━━━━━━━━  OR  ━━━━━━━━━"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_button_Login_file4" />
+
+    <Button
+        android:id="@+id/pd_button_Singup_file4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#295B6A"
+        android:text="Sing Up"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_OR_file1" />
+
+    <Button
+        android:id="@+id/pd_button_Submit_file2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/files"
+        android:backgroundTint="#295B6A"
+        android:text="Recover Password"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file4"
+        app:layout_constraintTop_toBottomOf="@+id/pd_button_Singup_file4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

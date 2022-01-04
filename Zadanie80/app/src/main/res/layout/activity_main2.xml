@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amogus2"
+    android:backgroundTint="#80D50F0F"
+    android:backgroundTintMode="src_over">
+
+    <ImageView
+        android:id="@+id/pd_logo_file2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pd_guideline_file2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/pd_Zarejestruj_file2"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:text="Sing up"
+        android:textAlignment="center"
+        android:textColor="#531914"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_logo_file2" />
+
+    <TextView
+        android:id="@+id/pd_Username_file2"
+        android:layout_width="390dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#80A56A6A"
+        android:backgroundTintMode="src_in"
+        android:text="  Username"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Zarejestruj_file2" />
+
+    <TextView
+        android:id="@+id/pd_Email_file2"
+        android:layout_width="390dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#80A56A6A"
+        android:backgroundTintMode="src_in"
+        android:text="  Email"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Username_file2" />
+
+    <TextView
+        android:id="@+id/pd_Password_file2"
+        android:layout_width="390dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#80A56A6A"
+        android:backgroundTintMode="src_in"
+        android:text="  Password"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Email_file2" />
+
+    <TextView
+        android:id="@+id/pd_ConfirmPassword_file2"
+        android:layout_width="390dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#80A56A6A"
+        android:backgroundTintMode="src_in"
+        android:text="  Confirm Password"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Password_file2" />
+
+    <Button
+        android:id="@+id/pd_button_Singup_file2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/files"
+        android:backgroundTint="#CDA724"
+        android:drawableLeft="@drawable/Singup"
+        android:drawablePadding="-50dp"
+        android:text="Sing Up"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_ConfirmPassword_file2" />
+
+    <Button
+        android:id="@+id/pd_button_OR_file2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/files"
+        android:backgroundTint="#CDA724"
+        android:clickable="true"
+        android:text="OR"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_button_Singup_file2" />
+
+    <Button
+        android:id="@+id/pd_button_Login_file2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/files"
+        android:backgroundTint="#CDA724"
+        android:drawableLeft="@drawable/Login"
+        android:drawablePadding="-50dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file2"
+        app:layout_constraintTop_toBottomOf="@+id/pd_button_OR_file2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

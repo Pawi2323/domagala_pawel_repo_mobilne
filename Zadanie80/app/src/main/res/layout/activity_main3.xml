@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amogus3"
+    android:backgroundTint="#80514343"
+    android:backgroundTintMode="src_over">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pd_guideline_file3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/pd_logo_file3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file3"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/pd_Odzyskaj_file3"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:text="Recover password"
+        android:textAlignment="center"
+        android:textColor="#C5BCBB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintTop_toBottomOf="@+id/pd_logo_file3" />
+
+    <TextView
+        android:id="@+id/pd_Email_file3"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#80A56A6A"
+        android:backgroundTintMode="src_in"
+        android:text="  Email"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Odzyskaj_file3" />
+
+    <Button
+        android:id="@+id/pd_button_Submit_file2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/files"
+        android:backgroundTint="#A56969"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pd_guideline_file3"
+        app:layout_constraintTop_toBottomOf="@+id/pd_Email_file3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
