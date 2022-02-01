@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buttonRead">加载</string>
+    <string name="buttonSave">保存</string>
+    <string name="editText">输入要写入的值</string>
+</resources>
